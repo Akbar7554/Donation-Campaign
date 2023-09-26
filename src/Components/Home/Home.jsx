@@ -1,8 +1,9 @@
+import AllCategory from "../AllCategory/AllCategory";
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
+            <AllCategory></AllCategory>
         </div>
     );
 };

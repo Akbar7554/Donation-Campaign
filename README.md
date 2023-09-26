@@ -9,17 +9,3 @@ Currently, two official plugins are available:
 
 
 
-//json file
-[...
-{
-"id": ..,
-"picture": "...",
-"title": "...",
-"category": "...",
-"color_cat_bg": "#ff444a33",
-"color_card_bg": "#f8714733",
-"color_text_button": "#F87147",
-"description": "...",
-"price": ...
-},
-...]
