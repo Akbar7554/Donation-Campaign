@@ -24,7 +24,7 @@ const DonationDetails = () => {
   }
 
   return (
-    <div className="w-[80%] mx-auto ">
+    <div className="w-[60%] mx-auto mt-10 ">
       <ToastContainer />
       <div className="relative">
         <img
@@ -32,7 +32,7 @@ const DonationDetails = () => {
           src={category.img_details}
           alt=""
         />
-        <div className="w-[920px] h-[100px] bg-[#0b0b0b80] rounded-b-lg opacity-50 absolute bottom-0 left-0 right-0"></div>
+        <div className="w-[911px] h-[100px] bg-[#0b0b0b80] rounded-b-lg opacity-50 absolute bottom-0 left-0 right-0"></div>
         <button onClick={handelDonationDetails}
           className="text-xl font-semibold text-white px-4 py-2 rounded-md absolute bottom-6  
         left-6 "

@@ -82,11 +82,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
       </div>
-      <h1 className="text-center text-5xl font-bold mt-20 mb-5">I Grow By Helping People In Need</h1>
-      <div className="flex items-center justify-center mt-14 mb-28">
-        <input placeholder="Search here...." type="text" className="border-2 w-96 h-12 rounded-l-lg pl-5 text-base"/>
-        <button className="bg-[#FF444A] h-12 w-28 text-white text-lg font-semibold rounded-r-lg">Search</button>
-      </div>
+      
     </div>
   );
 };

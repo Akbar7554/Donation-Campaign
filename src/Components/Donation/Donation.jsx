@@ -20,19 +20,19 @@ const Donation = () => {
     }
   }, []);
   return (
-    <div className="mb-32">
+    <div className="mb-32 w-[80%] mx-auto mt-10">
       {/* <h2>donate {donationDetails.length}</h2> */}
-      <ul className="grid grid-cols-2 gap-8 ">
+      <ul className="grid md:grid-cols-2 gap-5">
         {donationDetails.slice(0, dataLength).map((donation) => (
           <li key={donation.id}>
-            <div style={{ backgroundColor: donation.card_color }} className="card card-side bg-base-100 shadow-xl h-[250px] w-[580px] rounded-lg">
+            <div style={{ backgroundColor: donation.card_color }} className="card card-side bg-base-100 shadow-xl rounded-lg">
               <figure>
-                <img className="h-[260px] w-[600px]"
+                <img className="h-56 w-56"
                   src={donation.img_details}
                   alt="Movie"
                 />
               </figure>
-              <div className="card-body w-[700px]">
+              <div className="card-body ">
                 <h2 style={{backgroundColor: donation.title_color, color: donation.text_color}}  className="card-title border w-24 h-8 rounded-lg pl-4 text-base">{donation.title}</h2>
                 <h2 className="card-title text-2xl">{donation.category_name}</h2>
                 <p className="text-base font-semibold" style={{ color: donation.text_color }}>${donation.price}.00</p>

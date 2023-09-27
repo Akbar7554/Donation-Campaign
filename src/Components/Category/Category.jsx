@@ -1,8 +1,16 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Category = ({ category }) => {
+  // console.log(category.category_name);
+  
   const { id, img, title, category_name, card_color, title_color, text_color } = category;
+
+  const [search, setSearch] = useState('');
+  console.log(search);
+  console.log(setSearch);
   return (
+    
     <Link to={`/category/${id}`} style={{backgroundColor: card_color }} className="card card-compact bg-base-100 shadow-xl rounded-lg">
       <figure>
         <img
