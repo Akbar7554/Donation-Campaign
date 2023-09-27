@@ -50,7 +50,7 @@ const Header = () => {
   return (
     <div>
       <div className="navbar bg-base-100 w-[80%] mx-auto flex justify-between mt-5 gap-2">
-        <img className="w-48" src="/public/images/Logo.png" alt="" />
+        <img className="w-48" src="https://i.ibb.co/CMz7Qvz/Logo.png" alt="" />
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
